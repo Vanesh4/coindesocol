@@ -26,12 +26,10 @@
   <title>
     Now UI Kit by Creative Tim
   </title>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
-    name='viewport' />
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS Files -->
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="./assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
@@ -40,14 +38,13 @@
 </head>
 
 <body class="index-page sidebar-collapse">
-  <!-- Navbar -->  
+  <!-- Navbar -->
   @include('nav')
   <!-- End Navbar -->
 
   <div class="wrapper">
     <div class="page-header clear-filter" filter-color="black">
-      <div class="page-header-image" data-parallax="true"
-        style="background-image:url('./assets/img/banner-principal-fondo.jpg');">
+      <div class="page-header-image" data-parallax="true" style="background-image:url('./assets/img/banner-principal-fondo.jpg');">
       </div>
       <div class="container">
         <div class="content-center brand">
@@ -146,8 +143,7 @@
               Capacitación de Lideres sociales en proyectos productivos de alto impacto social en la region del bajo
               Cauca
             </h5>
-            <a href="https://drive.google.com/file/d/1yk1H9k_75N0h7eqBKWxdzYhmglGWEKB5/view"
-              class="btn btn-primary btn-round btn-lg" target="_blank">Ver Documento</a>
+            <a href="https://drive.google.com/file/d/1yk1H9k_75N0h7eqBKWxdzYhmglGWEKB5/view" class="btn btn-primary btn-round btn-lg" target="_blank">Ver Documento</a>
           </div>
           <div class="col-lg-4 col-md-12">
             <div class="row align-items-center">
@@ -178,8 +174,7 @@
       </div>
     </div>
 
-    <div class="section section-signup"
-      style="background-image: url('assets/img/bg11.jpg'); background-size: cover; background-position: top center; min-height: 700px;">
+    <div class="section section-signup" style="background-image: url('assets/img/bg11.jpg'); background-size: cover; background-position: top center; min-height: 700px;">
       <div class="container">
         <div class="card">
           <div class="card-header"></div>
@@ -187,9 +182,7 @@
             <div class="row justify-content-center">
               <div class="col-md-3 m-2">
                 <video controls style="width: 100%;">
-                  <source
-                    src="assets/img/Planeación Coindesocol Adecuacion de Instalaciones unidad educativa Fusagasugá.mp4"
-                    type="video/mp4">
+                  <source src="assets/img/Planeación Coindesocol Adecuacion de Instalaciones unidad educativa Fusagasugá.mp4" type="video/mp4">
                 </video>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Gestión obras de mantenimiento COINDESOCOL en Fusagasugá</h5>
@@ -197,9 +190,7 @@
               </div>
               <div class="col-3 m-2">
                 <video controls style="width: 100%;">
-                  <source
-                    src="assets/img/Gestión obras de mantenimiento COINDESOCOL_480p.mp4"
-                    type="video/mp4">
+                  <source src="assets/img/Gestión obras de mantenimiento COINDESOCOL_480p.mp4" type="video/mp4">
                 </video>
                 <!-- <div class="carousel-caption d-none d-md-block">
                   <h5>Nature, United States</h5>
@@ -207,72 +198,76 @@
               </div>
               <div class="col-3 m-2">
                 <video controls style="width: 100%;">
-                  <source
-                    src="assets/img/Planeación Coindesocol por más cupos escolares en fusagasugá.mp4"
-                    type="video/mp4">
+                  <source src="assets/img/Planeación Coindesocol por más cupos escolares en fusagasugá.mp4" type="video/mp4">
                 </video>
                 <!-- <div class="carousel-caption d-none d-md-block">
                   <h5>Nature, United States</h5>
                 </div> -->
               </div>
-            </div>       
+            </div>
           </div>
-        </div>        
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center">
+      <div class="col-lg-7 col-md-12">
+        <img src="./assets/img/CertificacionComisionInteramericana.jpg" alt="">
       </div>
     </div>
-  </div>
-  
-  <div class="section section-download" id="#download-section" data-background-color="black">
-    <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="text-center col-md-12 col-lg-8">
-          <h3 class="title">Conoce nuestra Historia</h3>
-          <h5 class="description">
-            La corporación Coindesocol es una entidad sin ánimo de lucro que se fundó en el año 2020 como una organización que representa los intereses de los colombianos y latinoamericanos ante la necesidad de fomentar la articulación y el diálogo entre los gobiernos, los gremios y el sector privado, también para aportar al crecimiento del sector productivo por medio...
-          </h5>
+    </div>
+
+
+    
+
+    <div class="section section-download" id="#download-section" data-background-color="black">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="text-center col-md-12 col-lg-8">
+            <h3 class="title">Conoce nuestra Historia</h3>
+            <h5 class="description">
+              La corporación Coindesocol es una entidad sin ánimo de lucro que se fundó en el año 2020 como una organización que representa los intereses de los colombianos y latinoamericanos ante la necesidad de fomentar la articulación y el diálogo entre los gobiernos, los gremios y el sector privado, también para aportar al crecimiento del sector productivo por medio...
+            </h5>
             <div class="col-md-12">
-              <a href="/nosotros"
-                class="btn btn-neutral btn-round btn-lg">
+              <a href="/nosotros" class="btn btn-neutral btn-round btn-lg">
                 <i class="now-ui-icons arrows-1_minimal-right"></i> Conocer Mas
               </a>
             </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>  
-  
-  
-  <footer class="footer" data-background-color="black">
-    <div class=" container ">
-      <nav>
-        <ul>
-          <li>
-            <a href="#">
-              coindesocol@gmail.com
-            </a>
-          </li>
-          <li>
-            <a href="http://presentation.creative-tim.com">
-              3194089689 - 3202526741 - 3108185942
-            </a>
-          </li>
-          <li>
-            <a href="http://blog.creative-tim.com">
-              Dg 77 b # 116 – 51 Bogotá, Colombia
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="copyright" id="copyright">
-        &copy;
-        <script>
-          document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-        </script>, Designed by
-        <a href="" target="_blank">Invision</a>. Coded by
-        <a href="" target="_blank">Creative Tim</a>.
+
+
+    <footer class="footer" data-background-color="black">
+      <div class=" container ">
+        <nav>
+          <ul>
+            <li>
+              <a href="#">
+                coindesocol@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="http://presentation.creative-tim.com">
+                3194089689 - 3202526741 - 3108185942
+              </a>
+            </li>
+            <li>
+              <a href="http://blog.creative-tim.com">
+                Dg 77 b # 116 – 51 Bogotá, Colombia
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright" id="copyright">
+          &copy;
+          <script>
+            document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+          </script>, Designed by
+          <a href="" target="_blank">Invision</a>. Coded by
+          <a href="" target="_blank">Creative Tim</a>.
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
   </div>
   <!--   Core JS Files   -->
   <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
@@ -289,7 +284,7 @@
   <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
   <script src="./assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       // the body of this function is in assets/js/now-ui-kit.js
       nowuiKit.initSliders();
     });

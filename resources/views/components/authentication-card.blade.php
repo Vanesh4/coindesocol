@@ -1,4 +1,5 @@
-<div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
+<div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0"
+style="background-image:url('./assets/img/banner-principal-fondo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div>
         {{ $logo }}
     </div>
