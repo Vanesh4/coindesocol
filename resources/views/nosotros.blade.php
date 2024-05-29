@@ -9,12 +9,10 @@
   <title>
     Coidesocol
   </title>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
-    name='viewport' />
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS Files -->
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="../assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
@@ -24,7 +22,7 @@
 
 <body class="landing-page sidebar-collapse">
   <!-- Navbar -->
-  @include('nav')
+  @include('layouts.nav')
   <!-- End Navbar -->
 
   <div class="wrapper">
@@ -84,7 +82,7 @@
         <h2 class="title">CORPORACIÓN INTEGRAL PARA EL DESARROLLO SOCIAL DE COLOMBIA Y DEL ENTORNO LATINOAMERICANO</h2>
         <div class="team">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="team-player">
                 <h4 class="title">Objeto Social</h4>
                 <p>
@@ -98,9 +96,9 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="team-player">
-                <h4 class="title">Objetivos</h4>                
+                <h4 class="title">Objetivos</h4>
                 <div class="row">
                   <div class="col-md-10 ml-auto mr-auto">
                     <div class="nav-align-center">
@@ -154,7 +152,7 @@
                       <div class="col-md-12 ml-auto mr-auto">
                         <ul>
                           <li>Adquirir bienes muebles e inmuebles para el cumplimento de su objeto y funcionamiento.</li>
-                          <li>Líneas de investigación en actividades científicas y tecnológicas: la corporación podrá suscribir, con entidades públicas y privadas  convenios especial de cooperación de qué trata la ley de ciencia y tecnología, el decreto 393 de 1991 y normas que lo adicionen, reformen o sustituyan, contratos de fomento en actividades científicas y tecnológicas, contratos de administración de proyectos,  de que trata el decreto 591 de 1991 y normas que lo adicionen, reformen o sustituyan.</li>
+                          <li>Líneas de investigación en actividades científicas y tecnológicas: la corporación podrá suscribir, con entidades públicas y privadas convenios especial de cooperación de qué trata la ley de ciencia y tecnología, el decreto 393 de 1991 y normas que lo adicionen, reformen o sustituyan, contratos de fomento en actividades científicas y tecnológicas, contratos de administración de proyectos, de que trata el decreto 591 de 1991 y normas que lo adicionen, reformen o sustituyan.</li>
                           <li>Celebrar contratos de prestación de servicios profesionales para representar a entidades públicas en procesos judiciales, así como su defensa y convenios de asociación de que trata la ley 489 de 1998, contratos de que trata el art 355 de la Constitución Nacional y normas que lo desarrollan y convenios de cooperación internacional.</li>
                         </ul>
                       </div>
@@ -163,49 +161,66 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="team-player">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-team text-center">
+      <div class="container">
+        <div class="team">
+          <div class="row">
+            <div class="col-md-12">
 
-                <h4 class="title">Valores Coorporativos</h4>
-                
-              </div>
+              <h4 class="title">Valores Corporativos</h4>
+              <p><strong>Compromiso:</strong> Se actúa en función del cumplimiento de nuestra misión y visión y con la integridad, como principio fundamental de las actuaciones transparentes de cada miembro de la organización.</p>
+              <p><strong>Solidaridad:</strong> Se construye un enfoque de desarrollo basado en Derechos Humanos, orientado a su cumplimiento y a erradicar la desigualdad en las comunidades con las que se pretende trabajar</p>
+              <p><strong>Participación:</strong> Se fundamenta el principio democrático y participativo en la integración de todas las ideas utilizando los medios necesarios para la transformación social y como fin inherente al desarrollo.</p>
+              <p><strong>Transparencia:</strong> La base de cualquier gestión es la honestidad, la responsabilidad compartida y el acceso oportuno a la información, como pilares de una rendición de cuentas ante los entes de control y ante los miembros de la asamblea, colaboradores, donantes, beneficiarios y ante la sociedad en general.</p>
+              <p><strong>Excelencia:</strong> Se asegura el cumplimiento de los objetivos y se busca el mayor impacto positivo de nuestras gestiones a través de la calidad, la mejora continua y la potencialización de nuestras capacidades y recursos.</p>
+              <p><strong>Unidad:</strong> Se impulsa el trabajo en equipo en la corporación y en la colaboración con otras organizaciones e instituciones para potenciar sinergias, mejorar el rendimiento de nuestro trabajo y ver resultados rápidamente a las gestiones que se adelanten por los grupos de trabajo.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <div class="section section-contact-us text-center">
       <div class="container">
         <h2 class="title">Contactanos</h2>
-        <p class="description">Your project is very important to us.</p>
+        <p class="description">Tu comentario es muy importante para nosotros</p>
         <div class="row">
-          <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
-            <div class="input-group input-lg">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <i class="now-ui-icons users_circle-08"></i>
-                </span>
-              </div>
-              <input type="text" class="form-control" placeholder="First Name...">
-            </div>
+          <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">            
             <div class="input-group input-lg">
               <div class="input-group-prepend">
                 <span class="input-group-text">
                   <i class="now-ui-icons ui-1_email-85"></i>
                 </span>
               </div>
-              <input type="text" class="form-control" placeholder="Email...">
+              <input type="text" class="form-control" placeholder="Asunto..." id="textAsuntoForm">
             </div>
             <div class="textarea-container">
-              <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
+              <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Escribe un mensaje..." id="textAreaCorreo"></textarea>
             </div>
             <div class="send-button">
-              <a href="#pablo" class="btn btn-primary btn-round btn-block btn-lg">Send Message</a>
+              <!-- <a href="#pablo" class="btn btn-primary btn-round btn-block btn-lg">Send Message</a> -->
+              <button class="btn btn-primary btn-round btn-block btn-lg" onclick="enviarCorreo()">Enviar Mensaje</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script>
+      function enviarCorreo() {
+        destinatario = "coindesocol@gmail.com"
+        asunto = document.getElementById("textAsuntoForm").value;
+        cuerpo = document.getElementById("textAreaCorreo").value;
+        var mailtoLink = 'mailto:' + encodeURIComponent(destinatario) +
+          '?subject=' + encodeURIComponent(asunto) +
+          '&body=' + encodeURIComponent(cuerpo);
+        window.location.href = mailtoLink;
+      }
+    </script>
+
     <footer class="footer footer-default">
       <div class=" container ">
         <nav>

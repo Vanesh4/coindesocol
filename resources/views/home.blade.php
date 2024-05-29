@@ -39,7 +39,7 @@
 
 <body class="index-page sidebar-collapse">
   <!-- Navbar -->
-  @include('nav')
+  @include('layouts.nav')
   <!-- End Navbar -->
 
   <div class="wrapper">
