@@ -8,6 +8,9 @@ Route::get('/', function () {
 Route::get('/nosotros', function () {
     return view('nosotros');
 });
+Route::get('/servicios', function () {
+    return view('servicios');
+});
 
 Route::middleware([
     'auth:sanctum',

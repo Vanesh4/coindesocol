@@ -236,38 +236,8 @@
       </div>
     </div>
 
-
-    <footer class="footer" data-background-color="black">
-      <div class=" container ">
-        <nav>
-          <ul>
-            <li>
-              <a href="#">
-                coindesocol@gmail.com
-              </a>
-            </li>
-            <li>
-              <a href="http://presentation.creative-tim.com">
-                3194089689 - 3202526741 - 3108185942
-              </a>
-            </li>
-            <li>
-              <a href="http://blog.creative-tim.com">
-                Dg 77 b # 116 – 51 Bogotá, Colombia
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="copyright" id="copyright">
-          &copy;
-          <script>
-            document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-          </script>, Designed by
-          <a href="" target="_blank">Invision</a>. Coded by
-          <a href="" target="_blank">Creative Tim</a>.
-        </div>
-      </div>
-    </footer>
+    @include('layouts.footer')
+    
   </div>
   <!--   Core JS Files   -->
   <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
@@ -299,5 +269,4 @@
     }
   </script>
 </body>
-
 </html>
